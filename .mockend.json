@@ -15,5 +15,5 @@
         "MaritalStatus": "int",
         "QuickLoginCode": "string",
         "WorkGroupIds":"string"
-  },
+  }
 }
