@@ -1,13 +1,19 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+  "employee": {
+        "Id": "string",
+        "PersonnelCode": "string",
+        "FullName": "string",
+        "FirstName": "string",
+        "LastName":"string",
+        "PhoneNumber": "string",
+        "PictureUrl": "string",
+        "HaveWorkPlan": "boolean",
+        "Status": "int",
+        "FatherName": "string",
+        "NationalId": "string",
+        "NumberOfChildren": "int",
+        "MaritalStatus": "int",
+        "QuickLoginCode": "string",
+        "WorkGroupIds":"string"
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
-  }
 }
